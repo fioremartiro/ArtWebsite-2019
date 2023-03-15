@@ -1,0 +1,25 @@
+ul {
+    margin-left: 80%;
+  }
+
+li {
+    float: left;
+    border-right: 0px #bbb;
+  }
+
+li a{
+    display: block;
+    color: #4d4d33;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 10px;
+    }
+li a:hover{
+    background-color: #c2c2a3;
+  }
+
+li:last-child{
+    border-right: none;
+  }

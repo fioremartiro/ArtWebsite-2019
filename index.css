@@ -1,0 +1,252 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
+
+body {
+  background-color: floralwhite;
+}
+
+#wrapper {
+  position: relative;
+  width: 984px;
+  margin: 0px auto 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title {
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  color: #1f1f14;
+  text-align: center;
+  font-size: 250%;
+}
+
+.bio {
+  font-family: 'Nunito', sans-serif;
+  top: 650px;
+  left:710px;
+  color: black;
+  text-align: center;
+}
+
+#parrafo {
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  top: 720px;
+  left:567px;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 20em;
+  text-align: justify;
+
+}
+
+.work {
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  left:650px;
+  color: black;
+  text-align: center;
+}
+
+#parrafo2 {
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   color:black;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20em;
+   text-align: justify;
+   margin-bottom: 30px;
+}
+
+.parallax1 {
+  background: url("images/playa7.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+.about{
+  margin: 5vh;
+  font-family: 'Nunito', sans-serif;
+  left:650px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.parallax2 {
+  height: 260px;
+  background: #00091a;
+  background-image: url("images/loca.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.video {
+  margin-left: 107px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+.conatiner{
+  max-width: 500px;
+}
+
+.instagram{ 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  margin-top: 0em;
+}
+
+.row > .col-12 {
+  width: 100%;
+}
+
+/*Footer*/
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6b7770;
+  margin: 0 0 0.5em 0;
+  line-height: 1.3;
+}
+
+h2.major {
+  position: relative;
+  border-top: solid 5px #e7eae8;
+  font-size: 1.65em;
+  text-align: center;
+}
+
+h2.major span {
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  top: -0.775em;
+  padding: 0 1.25em 0 1.25em;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 350px) {
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  
+  hr {
+    display: none;
+  }
+
+  #wrapper {
+    position: relative;
+    width: 984px;
+    margin: 0px auto 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: 'Nunito', sans-serif;
+    color: #1f1f14;
+    text-align: center;
+    top: 450px;
+    left:150px;
+  }
+  
+  .bio {
+    font-family: 'Nunito', sans-serif;
+    top: 450px;
+    left:150px;
+    color: black;
+   }
+  
+  #parrafo {
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    top: 500px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+  }
+  
+  .work {
+    font-family: 'Nunito', sans-serif;
+    left:110px;
+    color: black;
+  }
+  
+  #parrafo2 {
+     font-size: 17px;
+     font-family: 'Nunito', sans-serif;
+     top: 750px;
+     left:10px;
+     color:black;
+     padding: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20em
+  }
+  
+  .parallax1 {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    width: 500px;
+  }
+}  
+
+@media screen and (max-width: 608px) {
+  #wrapper {
+    position: relative;
+    width: 984px;
+    margin: 0px auto 0 auto;
+    text-align: center;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  hr {
+    display: none;
+  }
+}
