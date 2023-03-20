@@ -1,2 +1,2 @@
 # Art-WebPage
-This was my first web page ever built
+My first web page ever built
